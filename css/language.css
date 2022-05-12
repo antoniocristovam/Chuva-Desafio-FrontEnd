@@ -1,0 +1,19 @@
+.language__header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #CCCCCC;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px;
+    margin: 17px;
+    width: 97px;
+    height: 34px;
+}
+
+.language__header select {
+    border: none;
+    outline: 0;
+    padding-top: 3px;
+    background-color: #FDF1EB;
+}

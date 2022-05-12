@@ -1,0 +1,570 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+body {
+  background: #ffffff;
+}
+
+.login__user {
+  margin-bottom: 0;
+  display: flex;
+  align-items: center;
+  margin-right: 29px;
+}
+
+.login__user p {
+  margin-bottom: 0;
+  font-family: "Quicksand", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+}
+
+.login__user img {
+  border-radius: 50%;
+  margin-left: 10px;
+  background: rebeccapurple;
+}
+
+main{
+  position: absolute;
+  width: 83.8%;
+  height: 100vh;
+  top: 10.25%;
+  right: 0;
+}
+
+.main-container{
+  margin: 0 auto;
+  width: 92.5%;
+}
+
+#main-info p{
+  margin-bottom: 0.25rem;
+}
+
+.top-section{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.2rem;
+}
+
+.top-section #article-title{
+  width: 72.5%;
+  font: 800 20px "Roboto", sans-serif;
+  color: #ED7839;
+  letter-spacing: 1px;
+}
+
+.top-section .citation{
+  display: flex;
+  width: 20.5%;
+  flex-direction: column;
+  align-items: center;
+}
+  
+.top-section button{
+  height: 31px;
+  width: 43px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font: 400 1rem "Roboto", sans-serif;
+  color: #ffffff;
+  background: #ED7839;
+  border: none;
+  border-radius: 4px;
+  
+}
+
+.top-section #download-btn{
+  width: 120px;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.top-section .citation p{
+  width: 107%;
+  margin-top: 0.75rem;
+  text-align: center;
+  font: 500 0.85rem "Roboto", sans-serif;
+  color: #ED7839;
+  letter-spacing: 1px;
+}
+
+.top-section #article-title{
+  width: 72.5%;
+  font: 800 20px "Roboto", sans-serif;
+  color: #ED7839;
+  letter-spacing: 1px;
+}
+
+.top-section .citation{
+  display: flex;
+  width: 20.5%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.top-section .citation p{
+  width: 107%;
+  margin-top: 0.75rem;
+  text-align: center;
+  font: 500 0.85rem "Roboto", sans-serif;
+  color: #ED7839;
+  letter-spacing: 1px;
+}
+
+.top-section #buttons{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  
+}
+
+.video-section .details{
+  border-radius: 3px;
+  width: 23%;
+  border: 1px solid #ececec;
+}
+
+.video-section .details h1{
+  text-align: start;
+  padding: 10px 15px;
+  font: 500 1.25rem "Roboto", sans-serif;
+  color: #4e4e4e;
+  background-color: #fdebeb;
+}
+
+.video-section .details .informations-text{
+  padding: 15px;
+}
+
+.video-section .details .informations-text span,
+.video-section .details .informations-text p{
+  color: #5C5C5C;
+  font: 500 0.75rem "Quicksand", sans-serif;
+}
+  
+.video-section .details .informations-text strong{
+  color: #5C5C5C;
+  font: 700 0.75rem "Quicksand", sans-serif;
+}
+
+.video-section{
+  margin-top: 0.85rem;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.video-section .details{
+  width: 23%;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  }
+
+#authors{
+  margin-top: 1.25rem;
+}
+
+#authors p {
+  margin-bottom: 0;
+}
+
+#authors strong{
+  font-size: 0.9rem;
+}
+
+#authors p{
+  font-size: 0.88rem;
+  margin-top: 0.25rem;
+}
+
+#universities{
+  margin-top: 2.25rem;
+}
+
+#universities p {
+  margin-bottom: 0;
+}
+
+#universities p{
+  font-weight: 300;
+  font-size: 0.78rem;
+}
+
+
+
+
+
+
+#summary{
+  margin-top: 2rem;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+#summary .section-title{
+  padding: 10px 15px;
+  font: 500 1.25rem "Roboto", sans-serif;
+  color: #4E4E4E;
+  background-color: #fdf1eb;
+}
+
+#summary .summary-text,
+#summary .full-summary{
+  background: #ffffff;
+  /* padding: 15px; */
+}
+
+#summary .summary-text p,
+#summary .full-summary p{
+  font: 400 0.88rem "Quicksand", sans-serif;
+  line-height: 1.4rem;
+  letter-spacing: 0.014rem;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+
+#summary .summary-text p,
+#summary .full-summary p:last-child{
+  margin-bottom: 0;
+}
+
+#summary .summary-text strong{
+  color: #ED7839;
+}
+
+#summary div{
+  height: 100%;
+  transition: opacity 0.5s linear;
+}
+
+hr {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0);
+    opacity: 10;
+}
+
+#summary div.hide{
+  visibility: hidden;
+  opacity: 0;
+  height: 0px;
+  padding: 0px;
+}
+
+#summary div.show{
+  visibility: visible;
+  opacity: 1;
+  height: 100%;
+  padding: 15px
+}
+
+
+
+
+
+
+
+
+#discussions{
+  margin-top: 2rem;
+  padding-bottom: 0.8rem;
+  border: 1px solid #ececec;
+  border-radius: 3px;
+}
+
+#discussions .section-title{
+  padding: 10px 15px;
+  font: 500 1.25rem "Roboto", sans-serif;
+  color: #4E4E4E;
+  background-color: #fdf1eb;
+}
+
+#discussions #qa-info{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#discussions #qa-info h2{
+  font: 600 1.1rem "Roboto", sans-serif;
+  color: #ED7839;
+  letter-spacing: 0.2px;
+}
+
+#discussions #qa-info #qa-icons{
+  display: flex;
+  margin: 1.75rem auto 0;
+  width: 24.5%;
+  justify-content: space-between;
+}
+
+#discussions #qa-info p{
+  margin: 2rem auto 0;
+  width: 60%;
+  font: 400 0.88rem "Quicksand", sans-serif;
+}
+
+#bottom-text hr{
+  width: 95%;
+  left: 0;
+  border: 1px solid #e7e7e7;
+}
+
+#discussions #qa-info hr{
+  margin: 2.25rem auto 0;
+  width: 97.5%;
+  border: 1px solid #e7e7e7;
+}
+
+#discussions .topic{
+  width: 97.5%;
+  margin: 1rem auto 0;
+  padding: 1rem 1.5rem;
+  border: 1px solid #E7E7E7;
+  border-radius: 4px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.12);
+  font-family: "Quicksand", sans-serif;
+}
+
+#discussions .topic .topic-content .topic-title{
+  font-weight: 700;
+  font-size: 1rem;
+  color: #ED7839;
+}
+
+#discussions .topic .topic-content .topic-creator{
+  margin-top: 0.2rem;
+  font-weight: 600;
+  font-size: 0.75rem;
+  color: #5C5C5C;
+}
+
+#discussions .topic .topic-content .topic-question{
+  margin-top: 0.7rem;
+  font-weight: 400;
+  font-size: 0.88rem;
+  color: #4D4D4D;
+}
+
+#discussions .topic .topic-info{
+  width: 17.5%;
+  display: flex;
+  margin-top: 0.7rem;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#discussions .topic .topic-info p{
+  font-weight: 300;
+  font-size: 0.85rem;
+}
+
+#discussions #new-topic{
+  display: flex;
+  flex-direction: column;
+}
+
+#discussions #new-topic p{
+  text-align: center;
+  font: 400 0.88rem "Quicksand", sans-serif;
+}
+
+#discussions #new-topic form{
+  display: flex;
+  flex-direction: column;
+  width: 97.5%;
+  margin: 0.7rem auto 1rem;
+  font: 700 1rem "Roboto", sans-serif;
+  color: #ED7839;
+}
+
+#discussions #new-topic form input{
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  padding: 11px 0px 11px 23px;
+  font: 500 0.88rem "Quicksand", sans-serif;
+  color: #4D4D4D;
+  background-color: #ffffff;
+}
+
+#discussions #new-topic form label{
+  margin-top: 0.8rem;
+}
+
+#discussions #new-topic form textarea{
+  border: 1px solid #cccccc;
+  border-radius: 3px;
+  background-color: #ffffff;
+  resize: none;
+}
+
+#discussions #new-topic form #textarea-bottom{
+  display: flex;
+  justify-content: space-between;
+  margin: -2rem auto 0;
+  height: 2rem;
+  width: 100%;
+  background-color: #EAF1F2;
+  border: 1px solid #cccccc;
+}
+
+#discussions #new-topic form #text-edit-options{
+  display: flex;
+  width: 5%;
+  justify-content: space-between;
+  margin-left: 1.5rem;
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: #474747;
+  align-items: center;
+}
+
+#discussions #new-topic form #text-edit-options h2:nth-child(2){
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 1.27rem;
+}
+
+#discussions #new-topic form #send-button{
+  width: 20%;
+  border: none;
+  border-radius: 0px 0px 4px 0px;
+  background: linear-gradient(180deg, #FEB154 0%, #F1833E 100%);
+  color: #ffffff;
+  font: 600 0.9rem "Quicksand", sans-serif;
+  cursor: pointer;
+  
+}
+
+#discussions #new-topic hr{
+  margin: 0 auto 1rem;
+  width: 97.5%;
+  border: 1px solid #e7e7e7;
+}
+
+#discussions #sended-topic-screen{
+  display: flex;
+  flex-direction: column;
+}
+
+#discussions #sended-topic-screen #confirm-message{
+  margin-top: 1rem;
+  text-align: center;
+  font: 700 1.13rem "Roboto", sans-serif;
+  color: #ED7839;
+}
+
+#discussions #sended-topic-screen #thank-you-message{
+  margin-top: 1rem;
+  text-align: center;
+  font: 400 0.88rem "Quicksand", sans-serif;
+  color: #595959;
+}
+
+#discussions #sended-topic-screen a{
+  margin-top: 2rem;
+  text-align: center;
+  font: 500 0.88rem "Quicksand", sans-serif;
+  color: #F48F44;
+}
+
+#discussions #sended-topic-screen hr{
+  width: 97.5%;
+  margin: 4rem auto 0;
+  border: 1px solid #e7e7e7;
+}
+
+main #discussions #sended-topic-screen hr{
+  margin: 3rem auto 0;
+}
+
+#discussions #sended-topic-screen #sended-create-new-topic{
+  width: 22.5%;
+  height: 2rem;
+  margin: -1.2rem auto 0;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #FEB254 0%, #F0813D 100%);
+  color: white;
+  font: 600 0.9rem "Quicksand", sans-serif;
+  cursor: pointer;
+}
+
+#discussions #sended-topic-screen .recently-created-topic{
+  cursor: default;
+  background-color: #ececec;
+}
+
+#discussions #sended-topic-screen .recently-created-topic div{
+  filter: blur(2px);
+}
+
+#discussions #sended-topic-screen .recently-created-topic .topic-info{
+  visibility: hidden;
+}
+
+#discussions #sended-topic-screen #waiting-feedback{
+  margin: -7rem auto 2rem;
+  text-align: center;
+}
+
+#discussions #sended-topic-screen #waiting-feedback h3{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font: 700 1rem "Quicksand", sans-serif;
+  color: #707070;
+}
+#discussions section{
+  transition: opacity 0.3s linear;
+}
+
+#discussions #qa-info button{
+  display: flex;
+  margin: -1.1rem auto 0;
+  padding: 7px 14px;
+  width: 130px;
+  border: none;
+  border-radius: 4px;
+  background: linear-gradient(180deg, #FFB354 0%, #F0813D 100%);
+  color: #ffffff;
+  font: 600 0.9rem "Quicksand", sans-serif;
+  justify-content: space-between;
+  box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.12), 0px 2px 2px rgba(0, 0, 0, 0.24);
+  cursor: pointer;
+  z-index: -1;
+}
+
+#discussions #qa-info{
+  text-align: center;
+  margin-top: 1rem;
+}
+
+#discussions #qa-info h2{
+  font: 600 1.1rem "Roboto", sans-serif;
+  color: var(--orange-500);
+  letter-spacing: 0.2px;
+}
+
+
+#discussions #sended-topic-screen #waiting-feedback h3{
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+  font: 700 1rem "Quicksand", sans-serif;
+  color: #707070;
+}
+
+.hide-qa-section{
+  visibility: hidden;
+  opacity: 0;
+  height: 0px;
+  margin: 0;
+}
+
+.show-qa-section{
+  visibility: visible;
+  opacity: 1;
+  height: 100%;
+}

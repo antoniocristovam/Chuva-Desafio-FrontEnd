@@ -1,0 +1,42 @@
+header {
+    position: absolute;
+    min-width: 87.5%;
+    right: 0;
+    display: flex;
+    justify-content: space-around;
+    background: #FDF1EB;
+    z-index: -1;
+}
+  
+.header__descricao {
+    margin-bottom: 0;
+    margin-left: 36px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #725C5C;
+    font: normal;
+    font-weight: 400;
+}
+
+.header__cabecalho {
+    display: flex;
+    height: 70px;
+    background: #FDF1EB;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.header__titulo--01 {
+    font-size: 14px;
+}
+
+.header__titulo--02 {
+    font-size: 22px;
+    line-height: 26px;
+    color: #725c5c;
+}
+
+.header__titulo--03 {
+    font-size: 14px;
+}
