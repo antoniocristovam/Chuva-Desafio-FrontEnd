@@ -1,10 +1,10 @@
-var createTopicButton = document.getElementById("create-topic");
+const createTopicButton = document.getElementById("create-topic");
 let qaInfoSection = document.getElementById("qa-info");
 let newTopicSection = document.getElementById("new-topic");
-var sendNewTopicButton = document.getElementById("send-button");
+const sendNewTopicButton = document.getElementById("send-button");
 let sendedNewTopicScreen = document.getElementById("sended-topic-screen");
-var sendedScreenCreateNewTopicButton = document.getElementById("sended-create-new-topic");
-var summary = document.getElementById("summary");
+const sendedScreenCreateNewTopicButton = document.getElementById("sended-create-new-topic");
+const summary = document.getElementById("summary");
 let fullContent = document.getElementsByClassName("full-summary");
 let smallText = document.getElementsByClassName("summary-text");
 
@@ -52,29 +52,5 @@ sendNewTopicButton.addEventListener("click", () =>{
 sendedScreenCreateNewTopicButton.addEventListener("click", () =>{
   if (sendedNewTopicScreen.classList.contains("show-qa-section")){
     showNewTopicCreationSection();
-  }
-})
-
-function showSummaryFullContent(){
-  fullContent[0].classList.add("show");
-  fullContent[0].classList.remove("hide");
-
-  smallText[0].classList.remove("show");
-  smallText[0].classList.add("hide");
-}
-
-function hideSummaryFullContent(){
-  fullContent[0].classList.add("hide");
-  fullContent[0].classList.remove("show");
-
-  smallText[0].classList.remove("hide");
-  smallText[0].classList.add("show");
-}
-
-summary.addEventListener("click", () =>{
-  if (fullContent[0].classList.contains("hide")){
-    showSummaryFullContent();
-  } else{
-    hideSummaryFullContent();
   }
 })

@@ -44,9 +44,3 @@
     padding: 1rem 0;
     background: linear-gradient(180deg, #FFB354 0%, #EE7A3A 100%);
 }
-
-@media (max-width: 991px) {
-    .sidebar {
-      margin-left: -220px;
-    }
-}

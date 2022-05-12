@@ -34,36 +34,36 @@ main{
   right: 0;
 }
 
-.main-container{
+.main__principal{
   margin: 0 auto;
   width: 92.5%;
 }
 
-#main-info p{
+.info p{
   margin-bottom: 0.25rem;
 }
 
-.top-section{
+.principal__section{
   display: flex;
   justify-content: space-between;
   margin-top: 1.2rem;
 }
 
-.top-section #article-title{
+.principal__section .article__title{
   width: 72.5%;
   font: 800 20px "Roboto", sans-serif;
   color: #ED7839;
   letter-spacing: 1px;
 }
 
-.top-section .citation{
+.principal__section .citatacao__lateral{
   display: flex;
   width: 20.5%;
   flex-direction: column;
   align-items: center;
 }
   
-.top-section button{
+.principal__section button{
   height: 31px;
   width: 43px;
   display: flex;
@@ -77,13 +77,13 @@ main{
   
 }
 
-.top-section #download-btn{
+.principal__section .download__botao{
   width: 120px;
   justify-content: space-around;
   padding: 10px;
 }
 
-.top-section .citation p{
+.principal__section .citatacao__lateral p{
   width: 107%;
   margin-top: 0.75rem;
   text-align: center;
@@ -92,21 +92,14 @@ main{
   letter-spacing: 1px;
 }
 
-.top-section #article-title{
-  width: 72.5%;
-  font: 800 20px "Roboto", sans-serif;
-  color: #ED7839;
-  letter-spacing: 1px;
-}
-
-.top-section .citation{
+.principal__section .citatacao__lateral{
   display: flex;
   width: 20.5%;
   flex-direction: column;
   align-items: center;
 }
 
-.top-section .citation p{
+.principal__section .citatacao__lateral p{
   width: 107%;
   margin-top: 0.75rem;
   text-align: center;
@@ -115,20 +108,20 @@ main{
   letter-spacing: 1px;
 }
 
-.top-section #buttons{
+.principal__section .botao{
   display: flex;
   width: 100%;
   justify-content: space-between;
   
 }
 
-.video-section .details{
+.video__secao .lateral__detalhes{
   border-radius: 3px;
   width: 23%;
   border: 1px solid #ececec;
 }
 
-.video-section .details h1{
+.video__secao .lateral__detalhes h2{
   text-align: start;
   padding: 10px 15px;
   font: 500 1.25rem "Roboto", sans-serif;
@@ -136,68 +129,63 @@ main{
   background-color: #fdebeb;
 }
 
-.video-section .details .informations-text{
+.video__secao .lateral__detalhes .lateral__informations--text{
   padding: 15px;
 }
 
-.video-section .details .informations-text span,
-.video-section .details .informations-text p{
+.video__secao .lateral__detalhes .lateral__informations--text span,
+.video__secao .lateral__detalhes .lateral__informations--text p{
   color: #5C5C5C;
   font: 500 0.75rem "Quicksand", sans-serif;
 }
   
-.video-section .details .informations-text strong{
+.video__secao .lateral__detalhes .lateral__informations--text strong{
   color: #5C5C5C;
   font: 700 0.75rem "Quicksand", sans-serif;
 }
 
-.video-section{
+.video__secao{
   margin-top: 0.85rem;
   display: flex;
   justify-content: space-between;
   flex-direction: row;
 }
 
-.video-section .details{
+.video__secao .lateral__detalhes{
   width: 23%;
   border: 1px solid #ececec;
   border-radius: 3px;
   }
 
-#authors{
+.autores{
   margin-top: 1.25rem;
 }
 
-#authors p {
+.autores p {
   margin-bottom: 0;
 }
 
-#authors strong{
+.autores strong{
   font-size: 0.9rem;
 }
 
-#authors p{
+.autores p{
   font-size: 0.88rem;
   margin-top: 0.25rem;
 }
 
-#universities{
+.lateral__universidade{
   margin-top: 2.25rem;
 }
 
-#universities p {
+.lateral__universidade p {
   margin-bottom: 0;
 }
 
-#universities p{
+.lateral__universidade p{
   font-weight: 300;
   font-size: 0.78rem;
 }
-
-
-
-
-
 
 #summary{
   margin-top: 2rem;
@@ -206,7 +194,7 @@ main{
   cursor: pointer;
 }
 
-#summary .section-title{
+#summary .section__title{
   padding: 10px 15px;
   font: 500 1.25rem "Roboto", sans-serif;
   color: #4E4E4E;
@@ -216,7 +204,6 @@ main{
 #summary .summary-text,
 #summary .full-summary{
   background: #ffffff;
-  /* padding: 15px; */
 }
 
 #summary .summary-text p,
@@ -262,46 +249,39 @@ hr {
   padding: 15px
 }
 
-
-
-
-
-
-
-
-#discussions{
+.discurssao{
   margin-top: 2rem;
   padding-bottom: 0.8rem;
   border: 1px solid #ececec;
   border-radius: 3px;
 }
 
-#discussions .section-title{
+.discurssao .section__title{
   padding: 10px 15px;
   font: 500 1.25rem "Roboto", sans-serif;
   color: #4E4E4E;
   background-color: #fdf1eb;
 }
 
-#discussions #qa-info{
+.discurssao #qa-info{
   text-align: center;
   margin-top: 1rem;
 }
 
-#discussions #qa-info h2{
+.discurssao #qa-info h2{
   font: 600 1.1rem "Roboto", sans-serif;
   color: #ED7839;
   letter-spacing: 0.2px;
 }
 
-#discussions #qa-info #qa-icons{
+.discurssao #qa-info #qa-icons{
   display: flex;
   margin: 1.75rem auto 0;
   width: 24.5%;
   justify-content: space-between;
 }
 
-#discussions #qa-info p{
+.discurssao #qa-info p{
   margin: 2rem auto 0;
   width: 60%;
   font: 400 0.88rem "Quicksand", sans-serif;
@@ -313,13 +293,13 @@ hr {
   border: 1px solid #e7e7e7;
 }
 
-#discussions #qa-info hr{
+.discurssao #qa-info hr{
   margin: 2.25rem auto 0;
   width: 97.5%;
   border: 1px solid #e7e7e7;
 }
 
-#discussions .topic{
+.discurssao .topic{
   width: 97.5%;
   margin: 1rem auto 0;
   padding: 1rem 1.5rem;
@@ -329,27 +309,27 @@ hr {
   font-family: "Quicksand", sans-serif;
 }
 
-#discussions .topic .topic-content .topic-title{
+.discurssao .topic .topic-content .topic-title{
   font-weight: 700;
   font-size: 1rem;
   color: #ED7839;
 }
 
-#discussions .topic .topic-content .topic-creator{
+.discurssao .topic .topic-content .topic-creator{
   margin-top: 0.2rem;
   font-weight: 600;
   font-size: 0.75rem;
   color: #5C5C5C;
 }
 
-#discussions .topic .topic-content .topic-question{
+.discurssao .topic .topic-content .topic-question{
   margin-top: 0.7rem;
   font-weight: 400;
   font-size: 0.88rem;
   color: #4D4D4D;
 }
 
-#discussions .topic .topic-info{
+.discurssao .topic .topic-info{
   width: 17.5%;
   display: flex;
   margin-top: 0.7rem;
@@ -357,22 +337,22 @@ hr {
   align-items: center;
 }
 
-#discussions .topic .topic-info p{
+.discurssao .topic .topic-info p{
   font-weight: 300;
   font-size: 0.85rem;
 }
 
-#discussions #new-topic{
+.discurssao #new-topic{
   display: flex;
   flex-direction: column;
 }
 
-#discussions #new-topic p{
+.discurssao #new-topic p{
   text-align: center;
   font: 400 0.88rem "Quicksand", sans-serif;
 }
 
-#discussions #new-topic form{
+.discurssao #new-topic form{
   display: flex;
   flex-direction: column;
   width: 97.5%;
@@ -381,7 +361,7 @@ hr {
   color: #ED7839;
 }
 
-#discussions #new-topic form input{
+.discurssao #new-topic form input{
   border: 1px solid #cccccc;
   border-radius: 3px;
   padding: 11px 0px 11px 23px;
@@ -390,18 +370,18 @@ hr {
   background-color: #ffffff;
 }
 
-#discussions #new-topic form label{
+.discurssao #new-topic form label{
   margin-top: 0.8rem;
 }
 
-#discussions #new-topic form textarea{
+.discurssao #new-topic form textarea{
   border: 1px solid #cccccc;
   border-radius: 3px;
   background-color: #ffffff;
   resize: none;
 }
 
-#discussions #new-topic form #textarea-bottom{
+.discurssao #new-topic form #textarea-bottom{
   display: flex;
   justify-content: space-between;
   margin: -2rem auto 0;
@@ -411,7 +391,7 @@ hr {
   border: 1px solid #cccccc;
 }
 
-#discussions #new-topic form #text-edit-options{
+.discurssao #new-topic form #text-edit-options{
   display: flex;
   width: 5%;
   justify-content: space-between;
@@ -422,13 +402,13 @@ hr {
   align-items: center;
 }
 
-#discussions #new-topic form #text-edit-options h2:nth-child(2){
+.discurssao #new-topic form #text-edit-options h2:nth-child(2){
   font-family: 'Times New Roman', Times, serif;
   font-style: italic;
   font-size: 1.27rem;
 }
 
-#discussions #new-topic form #send-button{
+.discurssao #new-topic form #send-button{
   width: 20%;
   border: none;
   border-radius: 0px 0px 4px 0px;
@@ -439,49 +419,49 @@ hr {
   
 }
 
-#discussions #new-topic hr{
+.discurssao #new-topic hr{
   margin: 0 auto 1rem;
   width: 97.5%;
   border: 1px solid #e7e7e7;
 }
 
-#discussions #sended-topic-screen{
+.discurssao #sended-topic-screen{
   display: flex;
   flex-direction: column;
 }
 
-#discussions #sended-topic-screen #confirm-message{
+.discurssao #sended-topic-screen #confirm-message{
   margin-top: 1rem;
   text-align: center;
   font: 700 1.13rem "Roboto", sans-serif;
   color: #ED7839;
 }
 
-#discussions #sended-topic-screen #thank-you-message{
+.discurssao #sended-topic-screen #thank-you-message{
   margin-top: 1rem;
   text-align: center;
   font: 400 0.88rem "Quicksand", sans-serif;
   color: #595959;
 }
 
-#discussions #sended-topic-screen a{
+.discurssao #sended-topic-screen a{
   margin-top: 2rem;
   text-align: center;
   font: 500 0.88rem "Quicksand", sans-serif;
   color: #F48F44;
 }
 
-#discussions #sended-topic-screen hr{
+.discurssao #sended-topic-screen hr{
   width: 97.5%;
   margin: 4rem auto 0;
   border: 1px solid #e7e7e7;
 }
 
-main #discussions #sended-topic-screen hr{
+main .discurssao #sended-topic-screen hr{
   margin: 3rem auto 0;
 }
 
-#discussions #sended-topic-screen #sended-create-new-topic{
+.discurssao #sended-topic-screen #sended-create-new-topic{
   width: 22.5%;
   height: 2rem;
   margin: -1.2rem auto 0;
@@ -493,35 +473,35 @@ main #discussions #sended-topic-screen hr{
   cursor: pointer;
 }
 
-#discussions #sended-topic-screen .recently-created-topic{
+.discurssao #sended-topic-screen .recently-created-topic{
   cursor: default;
   background-color: #ececec;
 }
 
-#discussions #sended-topic-screen .recently-created-topic div{
+.discurssao #sended-topic-screen .recently-created-topic div{
   filter: blur(2px);
 }
 
-#discussions #sended-topic-screen .recently-created-topic .topic-info{
+.discurssao #sended-topic-screen .recently-created-topic .topic-info{
   visibility: hidden;
 }
 
-#discussions #sended-topic-screen #waiting-feedback{
+.discurssao #sended-topic-screen #waiting-feedback{
   margin: -7rem auto 2rem;
   text-align: center;
 }
 
-#discussions #sended-topic-screen #waiting-feedback h3{
+.discurssao #sended-topic-screen #waiting-feedback h3{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font: 700 1rem "Quicksand", sans-serif;
   color: #707070;
 }
-#discussions section{
+.discurssao section{
   transition: opacity 0.3s linear;
 }
 
-#discussions #qa-info button{
+.discurssao #qa-info button{
   display: flex;
   margin: -1.1rem auto 0;
   padding: 7px 14px;
@@ -537,19 +517,18 @@ main #discussions #sended-topic-screen hr{
   z-index: -1;
 }
 
-#discussions #qa-info{
+.discurssao #qa-info{
   text-align: center;
   margin-top: 1rem;
 }
 
-#discussions #qa-info h2{
+.discurssao #qa-info h2{
   font: 600 1.1rem "Roboto", sans-serif;
   color: var(--orange-500);
   letter-spacing: 0.2px;
 }
 
-
-#discussions #sended-topic-screen #waiting-feedback h3{
+.discurssao #sended-topic-screen #waiting-feedback h3{
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
   font: 700 1rem "Quicksand", sans-serif;
