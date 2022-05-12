@@ -22,7 +22,7 @@
 
 @media (max-width: 750px){
     .citatacao__lateral p {
-        display: none;
+        margin-left: -11120px;
 }}
 
 @media (max-width: 750px){
@@ -89,4 +89,24 @@
         width: 100%;
     }
 }
+
+@media (max-width: 1230px) {
+    .header__cabecalho {
+        margin-bottom: 0;
+        font-size: 100%;
+    }
+}
+
+@media (max-width: 500px) {
+    .login__user p {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 500px) {
+    .tetete {
+        width: 100%;
+    }
+}
+
 
