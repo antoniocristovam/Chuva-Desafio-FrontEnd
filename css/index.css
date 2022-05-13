@@ -26,6 +26,18 @@ body {
   background: rebeccapurple;
 }
 
+.notificacao{
+  color: #ffffff;
+  height: 12px;
+  width: 12px;
+  margin-bottom: 16px;
+  margin-left: -6px;
+  font: 600 0.6rem "Roboto", sans-serif;
+  text-align: center;
+  background-color: #F85959;
+  border-radius: 50%;
+}
+
 main{
   position: absolute;
   width: 83.8%;
